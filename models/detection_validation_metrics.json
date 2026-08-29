@@ -1,0 +1,21 @@
+{
+  "model": "logistic_regression",
+  "target": "risk",
+  "positive_class": "recoverable",
+  "negative_class": "not_recoverable",
+  "threshold": 0.41,
+  "threshold_selection": "maximum_validation_f1",
+  "threshold_tie_break": "lowest_threshold",
+  "validation_rows": 96,
+  "true_positives": 48,
+  "true_negatives": 32,
+  "false_positives": 11,
+  "false_negatives": 5,
+  "recall_recoverable": 0.9056603773584906,
+  "precision_recoverable": 0.8135593220338984,
+  "f1": 0.8571428571428571,
+  "pr_auc": 0.915815932096805,
+  "roc_auc": 0.9012724879333041,
+  "brier_score": 0.12561923390751525,
+  "balanced_accuracy": 0.8249232119350592
+}
